@@ -1,4 +1,4 @@
-IP Address Logging
+Say Command Fix
 ==================================
 
 There is an issue with string parsing for client side chat (the say and say_team commands) in Dystopia that will cause a server to crash; it does not manifest itself when using the say command, server side. To explain it, I will first describe a feature of the client side version of the commands: if the first character of the passed argument is ", then the first, and final characters will be truncated. I imagine the rationale for this design choice is so that chat messages can be surrounded by quotes (this will be done to any message submitted through the chat prompt).
