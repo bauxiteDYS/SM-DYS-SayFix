@@ -9,6 +9,6 @@ Further evidence to support this is that the SourceMod server addon will prevent
 
 ----------------------------------
 
-This plugin is written in the SourcePawn transitional syntax, and seeks to remedy the issue. It will do so by checking arguments passed to the say and say_team commands by a client. If the argument begins with a " but does not end with one, then produced chat message will consist of the entire string, with no characters truncated. Otherwise, the plugin will allow the standard behavior of the command.
+This plugin is written in the SourcePawn transitional syntax, and seeks to remedy the issue. It will do so by checking arguments passed to the say and say_team commands by a client. If the argument begins with a " but does not end with one, the produced chat message will consist of the entire string, with no characters truncated. Otherwise, the plugin will allow the standard behavior of the command.
 
 There were different ways that I could have handled the special case, and I think the way chosen for this plugin is fairly sane. My rationale for simply printing the entire string, is to default to the behavior of the server side say command.
