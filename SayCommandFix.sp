@@ -44,7 +44,7 @@ public Plugin myinfo =
 	author = "emjay",
 	description = "Fixes an issue with parsing a string beginning with a quote by say and say_team.",
 	version = "1.0",
-	url = "https://forums.alliedmods.net/showthread.php?p=2385072"
+	url = "https://forums.alliedmods.net/showthread.php?p=2472497"
 };
 
 public void OnPluginStart()
